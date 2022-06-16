@@ -1,21 +1,6 @@
-import { useEffect, useState } from "react";
 import { sites } from "../../database/sites";
 
 export const Home = () => {
-  const [style, setStyle] = useState({
-    paddingTop: "60",
-  });
-
-  useEffect(() => {
-    const titleDiv = document.querySelector(
-      ".portfolio-title",
-    );
-    const titleHeight = titleDiv.offsetHeight + 20;
-    setStyle({
-      paddingTop: titleHeight,
-    });
-  }, []);
-
   return (
     <div>
       <div className="portfolio-title">
@@ -44,7 +29,7 @@ export const Home = () => {
           </a>
         </div>
       </div>
-      <div style={style} className="portfolio-sites">
+      <div className="portfolio-sites">
         {sites.map((p, i) => (
           <div className="portfolio-card" key={i}>
             <a
