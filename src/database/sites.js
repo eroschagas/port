@@ -34,7 +34,7 @@ export const sites = [
   },
   {
     name: "Personal website",
-    link: "https://eros-portfolio.netlify.app",
+    link: "https://eros-chagas-welcome.netlify.app/",
     img: portfolio,
   },
   {
