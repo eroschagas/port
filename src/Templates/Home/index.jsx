@@ -40,7 +40,11 @@ export const Home = () => {
               <div className="card-background">
                 <h1>{p.name}</h1>
               </div>
-              <img src={p.img} alt="" />
+              <img
+                className="card-image"
+                src={p.img}
+                alt={p.name}
+              />
             </a>
           </div>
         ))}

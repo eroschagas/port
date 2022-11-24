@@ -1,3 +1,4 @@
+import pokegame_development from "../img/pokegame-development.jpg";
 import cinthiaimg from "../img/cinthia_g_christino.png";
 import meal from "../img/find_your_meal_app.png";
 import joao from "../img/joao_lemon.png";
@@ -7,6 +8,11 @@ import portfolio from "../img/portfolio.png";
 import posts from "../img/posts.png";
 
 export const sites = [
+  {
+    name: "Game website",
+    link: "https://pokemon-find-game.netlify.app/",
+    img: pokegame_development,
+  },
   {
     name: "Personal website",
     link: "https://cinthia-g-christino.netlify.app/",
